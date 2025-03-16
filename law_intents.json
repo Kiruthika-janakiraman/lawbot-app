@@ -1,0 +1,516 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hello", "Hey", "Hi", "Good Day", "Greetings"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "workplace_harassment",
+      "patterns": [
+        "What legal actions can an employee take if they face workplace harassment?",
+        "How should an employee report workplace harassment legally?",
+        "What protections are in place for whistleblowers in workplace harassment cases?"
+      ],
+      "responses": [
+        "Employees can file a complaint with their HR department, labor board, or take legal action through a workplace tribunal.",
+        "An employee should document incidents, report to HR or a legal authority, and seek legal counsel if necessary.",
+        "Whistleblowers are protected under various labor laws that prevent retaliation for reporting workplace misconduct."
+      ]
+    },
+    {
+      "tag": "cheque_bounce",
+      "patterns": [
+        "What legal remedies are available for a bounced cheque?",
+        "How can someone file a complaint for a dishonored cheque?",
+        "What are the penalties for issuing a cheque without sufficient funds?"
+      ],
+      "responses": [
+        "A legal notice can be sent to the issuer within the stipulated period, followed by a lawsuit if not resolved.",
+        "The complainant can file a case under the negotiable instruments act, providing proof of the bounced cheque.",
+        "Issuing a cheque without sufficient funds can lead to fines and imprisonment under financial fraud laws."
+      ]
+    },
+    {
+      "tag": "encroachment_issues",
+      "patterns": [
+        "What legal steps can be taken against land encroachment?",
+        "How can property owners prove encroachment?",
+        "What actions can local authorities take against illegal encroachment?"
+      ],
+      "responses": [
+        "Property owners can file a complaint with municipal authorities or seek a court order to remove the encroachment.",
+        "Encroachment can be proven through property deeds, land surveys, and legal documents.",
+        "Authorities can issue notices, impose penalties, and order demolition of illegal encroachments."
+      ]
+    },
+    {
+      "tag": "domestic_violence",
+      "patterns": [
+        "What legal protections are available for domestic violence victims?",
+        "How can someone obtain a restraining order against an abuser?",
+        "What are the legal consequences of domestic violence?"
+      ],
+      "responses": [
+        "Victims can seek protection under domestic violence laws, file police complaints, and request restraining orders.",
+        "A victim can approach the court or law enforcement to obtain a restraining order preventing further abuse.",
+        "Domestic violence offenders may face criminal charges, restraining orders, and penalties as per the law."
+      ]
+    },
+    {
+      "tag": "adoption_legalities",
+      "patterns": [
+        "What are the legal requirements for adopting a child?",
+        "How does the adoption process work legally?",
+        "What rights do adoptive parents have?"
+      ],
+      "responses": [
+        "Adoptive parents must meet eligibility criteria, submit required documents, and follow legal adoption procedures.",
+        "The adoption process involves background checks, home studies, and court approvals to ensure child welfare.",
+        "Adoptive parents gain full parental rights and responsibilities after legal adoption is finalized."
+      ]
+    },
+    {
+      "tag": "nuisance_complaints",
+      "patterns": [
+        "What legal remedies are available for nuisance complaints?",
+        "How can someone prove a nuisance case in court?",
+        "What actions can local authorities take to resolve nuisance disputes?"
+      ],
+      "responses": [
+        "Individuals can file complaints with municipal authorities or take legal action against the responsible party.",
+        "Evidence such as noise recordings, witness statements, and property damage reports can help prove a nuisance case.",
+        "Local authorities may impose fines, issue warnings, or take enforcement actions to resolve nuisance disputes."
+      ]
+    },
+    {
+      "tag": "loan_repayment_disputes",
+      "patterns": [
+        "What legal actions can I take if my lender is charging excessive interest?",
+        "How can I dispute a loan repayment schedule set by the bank?",
+        "What are my rights if I have been wrongly reported for loan default?"
+      ],
+      "responses": [
+        "You can file a complaint with the financial regulatory authority and seek legal assistance.",
+        "You have the right to negotiate the terms or seek mediation with the lender.",
+        "If wrongly reported, you can request a correction and file a legal dispute if necessary."
+      ]
+    },
+    {
+      "tag": "privacy_violations",
+      "patterns": [
+        "What legal actions can I take if my personal data has been leaked?",
+        "How do I file a complaint against an organization violating my privacy?",
+        "What steps can I take if my confidential information is shared without my consent?"
+      ],
+      "responses": [
+        "You can report the breach to the data protection authority and take legal action.",
+        "Filing a formal complaint with the concerned authority is the first step.",
+        "You may demand compensation and request immediate removal of the shared information."
+      ]
+    },
+    {
+      "tag": "insurance_claims_disputes",
+      "patterns": [
+        "What should I do if my insurance claim is unfairly denied?",
+        "How can I challenge an insurance company’s settlement offer?",
+        "What are my legal options if my insurer is delaying my claim payout?"
+      ],
+      "responses": [
+        "You can appeal the denial and seek legal assistance to challenge the decision.",
+        "Negotiation and legal mediation are possible options to ensure a fair settlement.",
+        "You can file a formal complaint against the insurer for undue delay."
+      ]
+    },
+    {
+      "tag": "public_property_damage",
+      "patterns": [
+        "Who is responsible for damages caused to public property?",
+        "What penalties exist for vandalizing public assets?",
+        "Can citizens take legal action against public property negligence?"
+      ],
+      "responses": [
+        "The responsible party can be held liable under civic laws.",
+        "Penalties include fines and legal prosecution depending on the severity of the damage.",
+        "Yes, legal complaints can be filed against authorities for negligence."
+      ]
+    },
+    {
+      "tag": "inheritance_fraud",
+      "patterns": [
+        "How can I challenge a fraudulent will?",
+        "What legal actions can be taken against someone forging inheritance documents?",
+        "Can an inheritance dispute be resolved outside of court?"
+      ],
+      "responses": [
+        "You can file a case in probate court and present evidence of fraud.",
+        "Forgery of inheritance documents is a criminal offense that can be legally challenged.",
+        "Yes, mediation or arbitration can be used to settle inheritance disputes."
+      ]
+    },
+    {
+      "tag": "environmental_law_violations",
+      "patterns": [
+        "What legal actions can be taken against companies polluting water sources?",
+        "How can individuals report illegal deforestation activities?",
+        "What are the penalties for violating environmental protection laws?"
+      ],
+      "responses": [
+        "Legal actions include fines, revoking permits, or criminal charges depending on the severity of pollution.",
+        "Individuals can report illegal deforestation to local environmental agencies or NGOs through helplines and online portals.",
+        "Penalties vary by jurisdiction but may include heavy fines, business shutdowns, or legal prosecution."
+      ]
+    },
+    {
+      "tag": "identity_theft",
+      "patterns": [
+        "What steps should I take if my identity has been stolen?",
+        "How can I prevent identity theft when using online services?",
+        "What legal actions are available for victims of identity theft?"
+      ],
+      "responses": [
+        "Immediately report the theft to the authorities, freeze your credit, and update all compromised accounts.",
+        "Use strong passwords, enable two-factor authentication, and avoid sharing personal information online.",
+        "Victims can file a police report and seek legal action under cybercrime laws to recover damages."
+      ]
+    },
+    {
+      "tag": "fraudulent_transactions",
+      "patterns": [
+        "How can I dispute a fraudulent transaction on my bank account?",
+        "What legal actions can be taken against a business for financial fraud?",
+        "What preventive measures can protect against fraudulent transactions?"
+      ],
+      "responses": [
+        "Contact your bank immediately, report the fraud, and request a chargeback or reversal.",
+        "Legal actions include filing complaints with consumer protection agencies or pursuing civil or criminal cases.",
+        "Use secure payment methods, regularly monitor account statements, and avoid sharing sensitive financial information."
+      ]
+    },
+    {
+      "tag": "cybercrime_online_fraud",
+      "patterns": [
+        "What legal protections exist against online fraud?",
+        "How should I report a cybercrime incident?",
+        "What are common signs of an online scam?"
+      ],
+      "responses": [
+        "Legal protections include cybersecurity laws that penalize fraud and provide compensation for victims.",
+        "Report cybercrime incidents to the cybercrime division of local law enforcement or national cybercrime portals.",
+        "Common signs include unsolicited requests for sensitive information, urgent payment demands, and too-good-to-be-true offers."
+      ]
+    },
+    {
+      "tag": "wrongful_termination",
+      "patterns": [
+        "What legal actions can I take if I was fired unfairly?",
+        "What evidence do I need to prove wrongful termination?",
+        "How does labor law protect employees from wrongful termination?"
+      ],
+      "responses": [
+        "You can file a complaint with the labor board, sue for damages, or seek reinstatement through legal channels.",
+        "Emails, employment contracts, witness statements, and termination letters can help prove wrongful termination.",
+        "Labor laws mandate fair dismissal procedures and prohibit termination based on discrimination or retaliation."
+      ]
+    },
+    {
+      "tag": "cyberbullying_harassment",
+      "patterns": [
+        "What legal actions can I take against cyberbullying?",
+        "How can I report online harassment to authorities?",
+        "What are my rights if someone is threatening me online?"
+      ],
+      "responses": [
+        "You can file a complaint under cyber laws and seek legal protection from harassment.",
+        "Reporting online harassment can be done through the police cybercrime division or relevant online platforms.",
+        "If you are facing threats online, you may be eligible for a restraining order and legal action against the perpetrator."
+      ]
+    },
+    {
+      "tag": "false_accusations",
+      "patterns": [
+        "What should I do if someone falsely accuses me of a crime?",
+        "Can I take legal action against false allegations?",
+        "What evidence can help prove my innocence in a false accusation case?"
+      ],
+      "responses": [
+        "If you are falsely accused, gather evidence and consult a lawyer to file a defamation case.",
+        "Yes, you can take legal action for defamation and seek damages.",
+        "Documents, witness statements, and digital records can help prove your innocence."
+      ]
+    },
+    {
+      "tag": "wrongful_allegations",
+      "patterns": [
+        "How can I defend myself against wrongful allegations?",
+        "What legal steps can I take if falsely accused at work?",
+        "Are there penalties for making wrongful allegations against someone?"
+      ],
+      "responses": [
+        "Defending against wrongful allegations requires legal representation and factual evidence.",
+        "If accused at work, you can file a complaint with HR or pursue legal action.",
+        "Yes, making false allegations can lead to legal consequences such as defamation claims."
+      ]
+    },
+    {
+      "tag": "consumer_rights",
+      "patterns": [
+        "What can I do if a seller refuses to refund a defective product?",
+        "How can I report a company for violating consumer protection laws?",
+        "What are my rights as a consumer if I receive a damaged product?"
+      ],
+      "responses": [
+        "You can file a complaint with the consumer protection agency and request a legal remedy.",
+        "If a company violates consumer protection laws, you can report them to the appropriate regulatory body.",
+        "As a consumer, you have the right to a replacement, repair, or refund for a damaged product."
+      ]
+    },
+    {
+      "tag": "consumer_product_liability",
+      "patterns": [
+        "Who is responsible if I get injured due to a defective product?",
+        "How do I file a claim against a manufacturer for a defective product?",
+        "What compensation can I receive for harm caused by a defective product?"
+      ],
+      "responses": [
+        "The manufacturer or seller can be held liable for injuries caused by defective products.",
+        "To file a claim, collect evidence, medical reports, and legal assistance for product liability claims.",
+        "You may receive compensation for medical expenses, damages, and pain and suffering."
+      ]
+    },
+    {
+      "tag": "financial_fraud_ponzi_schemes",
+      "patterns": [
+        "What legal actions can I take if I invested in a Ponzi scheme?",
+        "How do I identify financial fraud before investing?",
+        "What are the penalties for running a Ponzi scheme?"
+      ],
+      "responses": [
+        "Victims of Ponzi schemes can file a complaint with financial regulatory authorities and seek legal restitution.",
+        "To identify financial fraud, review regulatory registrations, check for unrealistic returns, and verify company credibility.",
+        "Individuals operating Ponzi schemes can face criminal charges, fines, and long-term imprisonment."
+      ]
+    },
+    {
+      "tag": "religious_cultural_rights",
+      "patterns": [
+        "What legal protections exist for religious freedom?",
+        "How can I report a cultural rights violation?",
+        "What are common examples of religious discrimination?"
+      ],
+      "responses": [
+        "Religious freedom is protected under constitutional and human rights laws that prohibit discrimination.",
+        "To report a cultural rights violation, file a complaint with human rights commissions or legal advocacy groups.",
+        "Common examples of religious discrimination include workplace bias, hate crimes, and restricted religious practices."
+      ]
+    },
+    {
+      "tag": "landlord_tenant_disputes",
+      "patterns": [
+        "What steps can a tenant take if a landlord refuses repairs?",
+        "How can a landlord legally evict a tenant?",
+        "What rights do tenants have against unfair rent hikes?"
+      ],
+      "responses": [
+        "Tenants can issue formal repair requests and seek legal action if landlords fail to address necessary maintenance.",
+        "A landlord must follow legal eviction procedures, including proper notice and court approval where required.",
+        "Many jurisdictions have rent control laws protecting tenants from excessive rent increases."
+      ]
+    },
+    {
+      "tag": "social_media_defamation",
+      "patterns": [
+        "How can I take legal action against defamation on social media?",
+        "What constitutes defamation on online platforms?",
+        "Can I remove defamatory content from social media?"
+      ],
+      "responses": [
+        "Victims of social media defamation can file lawsuits for damages and request content removal through legal channels.",
+        "Defamation includes false statements published online that harm a person’s reputation.",
+        "Defamatory content can be reported to platform moderators or removed through court orders."
+      ]
+    },
+    {
+      "tag": "data_protection",
+      "patterns": [
+        "What laws protect personal data from misuse?",
+        "How can I report a data privacy breach?",
+        "What actions can be taken if my personal information is used without consent?"
+      ],
+      "responses": [
+        "Laws such as GDPR and data protection acts regulate the use of personal information and ensure privacy.",
+        "Data breaches can be reported to regulatory bodies that oversee cybersecurity and data privacy.",
+        "Legal action can be taken against unauthorized use of personal information, including lawsuits and penalties."
+      ]
+    },
+    {
+      "tag": "false_advertising",
+      "patterns": [
+        "What legal actions can be taken against false advertising?",
+        "How can consumers prove they were misled by a promotion?",
+        "What are the penalties for businesses engaging in deceptive marketing?"
+      ],
+      "responses": [
+        "Consumers can file complaints with regulatory bodies or pursue a lawsuit for deceptive practices.",
+        "Providing evidence such as misleading advertisements, product descriptions, or testimonials can support a claim.",
+        "Penalties may include fines, product recalls, and mandatory corrections in advertisements."
+      ]
+    },
+    {
+      "tag": "workplace_wage_disputes",
+      "patterns": [
+        "What are my rights if my employer refuses to pay my wages?",
+        "How can I file a complaint for unpaid overtime?",
+        "What legal protections exist for employees facing wage theft?"
+      ],
+      "responses": [
+        "Employees can file a wage claim with the labor board or take legal action for unpaid wages.",
+        "You can report the issue to labor authorities or initiate a lawsuit to recover lost earnings.",
+        "Laws protect employees from wage theft, ensuring compensation and potential penalties for employers."
+      ]
+    },
+    {
+      "tag": "medical_consent",
+      "patterns": [
+        "What constitutes informed consent in medical treatment?",
+        "Can a patient refuse medical treatment even if it’s life-saving?",
+        "What legal actions can be taken if a doctor proceeds without consent?"
+      ],
+      "responses": [
+        "Informed consent requires that the patient understands the procedure, risks, and alternatives before agreeing.",
+        "Patients generally have the right to refuse treatment unless legal exceptions apply.",
+        "A doctor proceeding without consent may be liable for medical malpractice or battery."
+      ]
+    },
+    {
+      "tag": "tort_law",
+      "patterns": [
+        "What are the key elements of a negligence claim?",
+        "How can someone seek compensation for emotional distress?",
+        "What legal remedies are available for trespassing?"
+      ],
+      "responses": [
+        "Negligence claims require proving duty, breach, causation, and damages.",
+        "Compensation for emotional distress may be sought through a personal injury lawsuit.",
+        "Victims of trespassing can file for damages or seek an injunction against the trespasser."
+      ]
+    },
+    {
+      "tag": "contract_breach",
+      "patterns": [
+        "What remedies are available for a breach of contract?",
+        "How can a party prove that a contract was breached?",
+        "What are the differences between material and minor breaches?"
+      ],
+      "responses": [
+        "Remedies may include damages, specific performance, or contract cancellation.",
+        "Proof of breach includes evidence of the contract, failure to perform, and resulting damages.",
+        "Material breaches affect the contract’s core, while minor breaches do not disrupt overall obligations."
+      ]
+    },
+    {
+      "tag": "intellectual_property",
+      "patterns": [
+        "What legal actions can be taken against copyright infringement?",
+        "How can a trademark owner protect their brand from misuse?",
+        "What penalties exist for patent infringement?"
+      ],
+      "responses": [
+        "Copyright holders can issue cease-and-desist letters or file lawsuits for damages.",
+        "Trademark owners can register their marks and take legal action against infringers.",
+        "Patent infringement penalties may include fines and court-ordered injunctions."
+      ]
+    },
+    {
+      "tag": "eviction_without_notice",
+      "patterns": [
+        "What rights do tenants have if evicted without notice?",
+        "How can a tenant challenge an illegal eviction?",
+        "What legal steps must landlords follow for a proper eviction?"
+      ],
+      "responses": [
+        "Tenants can file a complaint or seek legal intervention for unlawful eviction.",
+        "Challenging an eviction involves gathering evidence and filing a case in housing court.",
+        "Landlords must provide proper notice and follow legal eviction procedures."
+      ]
+    },
+    {
+      "tag": "false_imprisonment",
+      "patterns": [
+        "What qualifies as false imprisonment in legal terms?",
+        "What legal remedies exist for false imprisonment victims?",
+        "How can someone prove they were falsely imprisoned?"
+      ],
+      "responses": [
+        "False imprisonment occurs when someone is unlawfully restrained without consent.",
+        "Victims may file civil lawsuits seeking compensation for damages.",
+        "Proving false imprisonment requires evidence of unlawful confinement without legal justification."
+      ]
+    },
+    {
+      "tag": "class_action_lawsuits",
+      "patterns": [
+        "What qualifies a lawsuit to be filed as a class action?",
+        "How do class action settlements work?",
+        "What are the benefits of joining a class action lawsuit?"
+      ],
+      "responses": [
+        "A class action requires multiple plaintiffs with similar claims against a defendant.",
+        "Settlements distribute compensation among class members based on agreed terms.",
+        "Joining a class action can reduce legal costs and improve chances of success."
+      ]
+    },
+    {
+      "tag": "tenant_rights",
+      "patterns": [
+        "What are my rights as a tenant regarding rent increases?",
+        "Can a landlord evict me without notice?",
+        "What should I do if my landlord refuses to make repairs?"
+      ],
+      "responses": [
+        "Tenants have rights regarding rent increases, which vary by location. In many places, landlords must provide notice and follow legal guidelines.",
+        "Landlords typically must follow legal procedures and provide proper notice before eviction. Check your local laws for specifics.",
+        "If your landlord refuses to make necessary repairs, document the issue and report it to the housing authority or take legal action."
+      ]
+    },
+    {
+      "tag": "defamation_case",
+      "patterns": [
+        "What legal actions can I take if someone spreads false information about me?",
+        "How do I prove a defamation case?",
+        "What damages can be claimed in a defamation lawsuit?"
+      ],
+      "responses": [
+        "If someone spreads false information about you, you may have a case for defamation. You can send a cease-and-desist letter or file a lawsuit.",
+        "To prove defamation, you need to show that false statements were made, they caused harm, and they were not protected as free speech.",
+        "In a defamation lawsuit, you may claim damages for financial losses, emotional distress, and harm to your reputation."
+      ]
+    },
+    {
+      "tag": "employment_rights",
+      "patterns": [
+        "What are my rights if I am unfairly dismissed from my job?",
+        "Can my employer reduce my salary without notice?",
+        "What should I do if I experience workplace discrimination?"
+      ],
+      "responses": [
+        "If you are unfairly dismissed, you may have the right to challenge the termination through labor authorities or legal action.",
+        "Employers generally cannot reduce salaries without prior notice or agreement. Check your employment contract and labor laws.",
+        "If you experience workplace discrimination, document the incidents and report them to HR or relevant legal authorities."
+      ]
+    },
+    {
+      "tag": "personal_injury_claims",
+      "patterns": [
+        "How do I file a personal injury claim?",
+        "What compensation can I receive for a personal injury case?",
+        "How long do I have to file a personal injury lawsuit?"
+      ],
+      "responses": [
+        "To file a personal injury claim, gather evidence, seek medical attention, and contact a personal injury lawyer.",
+        "Compensation for personal injury cases may include medical expenses, lost wages, and pain and suffering.",
+        "The time limit to file a personal injury lawsuit varies by jurisdiction. Check the statute of limitations in your area."
+      ]
+    }
+  ]
+}
